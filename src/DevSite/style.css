@@ -1,0 +1,114 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+header{
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    background-color:#e4e4e4 ;
+    border-bottom: 1px solid transparent ;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+.logo > h1{
+    margin-left: 80px;
+    margin-top: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+   margin-left: 700px; 
+}
+
+.navbar li{
+    display: inline-block;
+    margin-top: 15px;
+   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding-left: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navbar a:hover{
+    color:darkcyan;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container1{
+    height: 300px;
+    
+}
+
+.container1 > h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#depot{
+    text-align:center;
+    margin-left: 44%;
+
+    
+}
+
+.container2{
+    height: 100px;
+}
+
+
+
+button{
+
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-left: 44%;  
+    background-color: white; 
+    color: black; 
+    border: 2px solid darkcyan;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+    color: white;
+}
+  
+footer{
+    position: absolute;
+    height: 100px;
+    bottom:0;
+    width:100%;    
+    background-color: darkcyan;
+    
+}
+
+footer > h4{
+   
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#details{
+      margin-left: 20%;
+}
+#Crédits{
+    margin-left: 38%;
+}
