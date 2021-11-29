@@ -7,7 +7,35 @@
 
 h2 {color:#ffffff !important}
 
-
+body{
+  margin: 0% !important;
+  padding: 0% !important;
+}
+nav {
+  height: 70px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+  
+}
+nav a
+{
+  width: 100%;
+  height: 70px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+nav a:hover 
+{
+  background: #97969c
+}
+h1{
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Lucida Handwriting;
+}
 body{
   display: flex;
   justify-content: center;
@@ -39,12 +67,6 @@ body{
 }
 .container.card{
   background: linear-gradient(#e66465, #9198e5);
-}
-.mainpage{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: transparent;
 }
 /*.container .card:after{
   content: ' ';
