@@ -2,62 +2,22 @@ body{
     margin:0px;
     padding:0px;
 }
-nav {
-    height: 70px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
-    
-}
-nav a
-{
-    width: 100%;
-    height: 70px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    color: darkcyan;
-}
-nav a:hover 
-{
-    background: #97969c
-}
-h1{
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Lucida Handwriting;
-}
-h3{
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 50%;
-}
-button{
-    font-family: Garamond;
-    border-radius: 8px;
-    font-size: medium;
-    color: darkcyan;
-    
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
-}
-header{
-    display: flex;
-    width: 100%;
-    margin:0px;
-    padding: 0px;
-    background-color:#e4e4e4 ;
-    border-bottom: 1px solid transparent ;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
-    
-}
-.logo{
-    height: 70px;
-    background-color: transparent;
-}
 
-.logo > h1{
+
+/*button{
+
+    color: darkcyan;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}*/
+
+
+
+/*.logo > h1{
     margin-left: 80px;
     margin-top: 15px;
     font-family:Arial, Helvetica, sans-serif;
@@ -84,10 +44,8 @@ margin-left: 700px;
 .navbar a:hover{
     color:darkcyan;
 }
+*/
 
-ul{
-    list-style-type: none;
-}
 
 .container1{
     height: 300px;
@@ -112,40 +70,6 @@ ul{
 
 
 
-button{
-
-    color: darkcyan;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.btn{
-    margin-left: 44%;  
-    background-color: white; 
-    color: black; 
-    border: 2px solid darkcyan;
-}
-
-.btn:hover {
-    background-color: darkcyan;
-    color: white;
-}
-.mainpage{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: transparent;
-}
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-  
 footer{
     position: absolute;
     height: 100px;
@@ -156,14 +80,14 @@ footer{
 }
 
 footer > h4{
-   
+
     display: inline-block;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif
 }
 
 #details{
-      margin-left: 20%;
+margin-left: 20%;
 }
 #Crédits{
     margin-left: 38%;
