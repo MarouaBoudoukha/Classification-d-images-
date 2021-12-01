@@ -5,6 +5,7 @@ h2 {color:#ffffff !important}
 body{
   margin: 0% !important;
   padding: 0% !important;
+  position: relative;
 }
 nav {
   height: 70px;
@@ -31,13 +32,13 @@ h1{
   margin-right: auto;
   font-family: Lucida Handwriting;
 }
-/*
+
 body{
-  display: flex;
+  display:flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   
 }*/
 
@@ -143,10 +144,10 @@ img {
   max-width: 100%;
 }
 
-/*-- end reset --*/
-/*body {
+/*-- end reset --*/-
+body {
   background:inear-gradient(#37808d, #56e9fc);
-  /* fallback for old browsers 
+  /* fallback for old browsers */
   background: -webkit-linear-gradient(#37808d, #56e9fc);
   background: -moz-linear-gradient(to top, #37808d, #56e9fc);;
   background: -o-linear-gradient(to top, #37808d, #56e9fc);
@@ -154,7 +155,7 @@ img {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
-}*/
+}
 
 h1 {
   font-size: 3em;
@@ -736,9 +737,9 @@ input[type="submit"] {
     padding: 1.2em;
 }
 
-.colorlibcopy-agile {
+/* .colorlibcopy-agile {
     margin: 0 0 1em;
-}
+} */
 
 input[type="text"], input[type="email"], input[type="password"] {
     width: 89.5%;
@@ -775,4 +776,16 @@ input[type="submit"] {
 .main-w3layouts {
     padding: 1em 0 0;
 }
+}
+
+#form{
+  height: 70%;
+  width: 80%;
+  margin-bottom: 20%;
+  /* margin: 15%; */
+}
+.logo{
+  height: 70px;
+  background-color: transparent;
+  width: 350px !important;
 }

@@ -148,7 +148,7 @@ body{
 .container.card{
   background: linear-gradient(#e66465, #9198e5);
 }
-/*.container .card:after{
+.container .card:after{
   content: ' ';
   position: absolute;
   top: 30%;
@@ -289,7 +289,7 @@ font-size: small;
   transition-delay: 0.75s;
   
 }
-/*
+/
 body {
   background: linear-gradient(#828383, #ffffff);
     height: 100vh;
