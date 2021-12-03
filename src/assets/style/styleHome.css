@@ -64,10 +64,10 @@ margin-left: 700px;
     
 }
 
+
 .container2{
     height: 100px;
 }
-
 
 
 footer{
@@ -77,6 +77,10 @@ footer{
     width:100%;    
     background-color: darkcyan;
     
+}
+
+a{
+    text-decoration: none;
 }
 
 footer > h4{
