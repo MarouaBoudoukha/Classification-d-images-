@@ -89,7 +89,7 @@ h2 {color:#ffffff !important}*/
   margin: 0% !important;
   padding: 0% !important;
 }*/
-nav {
+/* nav {
   height: 70px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
@@ -113,7 +113,7 @@ h1{
   margin-left: auto;
   margin-right: auto;
   font-family: Lucida Handwriting;
-}
+} */
 body{
   display: flex;
   flex-direction: column;
@@ -292,7 +292,7 @@ font-size: small;
 /
 body {
   background: linear-gradient(#828383, #ffffff);
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Montserrat', sans-serif;
   }*/
 

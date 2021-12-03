@@ -312,7 +312,7 @@ footer {
 
 footer{
   position: absolute;
-  height: 100px;
+  height: 10%;
   bottom:0;
   width:100%;    
   background-color: darkcyan;

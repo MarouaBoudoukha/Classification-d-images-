@@ -19,7 +19,7 @@ nav a
   height: 70px;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  color: white;
+  /* color: white; */
 }
 nav a:hover 
 {
