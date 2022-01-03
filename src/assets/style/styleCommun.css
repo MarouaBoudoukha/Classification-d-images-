@@ -18,7 +18,7 @@ nav a:hover
     background: #97969c
 }
 h1{
-    
+  text-align: center;
     width: 50%;
     margin-left: 400px;
     margin-right: auto;
@@ -320,7 +320,7 @@ body {
 
 footer {
     position: absolute;
-    height: 100px !important;
+    height: 80px !important;
     bottom: -5%;
     left: 0;
     right: 0;
@@ -348,9 +348,18 @@ margin-left: 20%;
 .backgroundImage {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; 
   background-attachment: local;
 }
 .home{
   background-image: url(../images/backgroundCovid.jpg);
+}
+
+li{
+  padding: 20px;
+  border-radius: 20px;
+}
+li h2{
+  font-size: 20px;
+  color: black !important;
 }
