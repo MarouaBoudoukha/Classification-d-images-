@@ -320,7 +320,7 @@ body {
 
 footer {
     position: absolute;
-    height: 80px !important;
+    height: 80px ;
     bottom: -5%;
     left: 0;
     right: 0;
